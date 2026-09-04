@@ -1,3 +1,54 @@
 body {
     background-color: #093b0d;
 }
+
+header {
+    height: 100px;
+    
+    background-color: #237923;
+    color: #ffffff;
+    
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+nav {
+    height: 25px;
+    background-color: #133813;
+    color: #ffffff;
+    margin: 5px;
+}
+
+main {
+    height: 500px;
+    background-color: #093b0d;
+    color: #ffffff;
+}
+
+article {
+    height: 400px;
+    background-color: #0f4d0f;
+    color: #ffffff;
+    width: 70%;
+    float: left;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+aside {
+    height: 150px;
+    background-color: #0f4d0f;
+    color: #ffffff;
+    width: 25%;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer{
+    height: 200px;
+    background-color: #0f4d0f;
+    color: #ffffff;
+}
