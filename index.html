@@ -3,6 +3,12 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Notes Page | Home </title>
+        <style>
+            h1{
+                font-family: 'Courier New', Courier, monospace;
+                
+            }
+        </style>
     </head>
 
     <body>
@@ -17,14 +23,33 @@
 
         <main>
 
-            <article>
-                <h1>
-                    Hello World
+            <article Id="mainShadow">
+                <h1 style="font-size: 36pt;">
+                    Css notes
                 </h1>
+
+                <p>
+                    There are 3 places to write css:<br>
+                    - External<br>
+                    - Page Header (will override external)<br>
+                    - Inline (Will override both external and page header)<br>
+
+                </p>
+
+                <h1>
+                    Css selectors
+                </h1>
+                <p class="bodytext">
+                    There are 3 ways to apply css:<br>
+                    - Highjack Html tags<br>
+                    - Declare and use classes (started with a .)<br>
+                    - Declare and use Ids (started with a #)<br>
+                </p>
+
             </article>
 
             
-            <aside>
+            <aside Id="mainShadow">
                 My Notes
                 <ol>
                     <li>Yes</li>

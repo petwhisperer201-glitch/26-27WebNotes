@@ -55,7 +55,7 @@ article {
     color: #ffffff;
     width: 70%;
     border-radius: 20px;
-    padding: 15px;
+    padding: 0px 15px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
@@ -79,6 +79,18 @@ footer {
 
 }
 
+h1{
+    color: rgb(154, 190, 154);
+    font-size: 24pt;
+}
+
+
+.bodytext{
+    font-size: 16pt;
+    color: rgb(135, 145, 135);
+    font-family: 'Arial', sans-serif;
+}
+
 .nav-link {
     color: #ffffff;
     text-decoration: none;
@@ -89,4 +101,9 @@ footer {
     color: #c9c7c7;
     text-decoration: none;
     padding: 5px;
+}
+
+
+#mainShadow {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
