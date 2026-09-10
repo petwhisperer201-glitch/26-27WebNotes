@@ -37,6 +37,42 @@ nav {
     padding: 15px 0;
 }
 
+nav a:link {
+    border-radius: 4px 4px 0px 0px;
+    background-color: #337a33;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a:visited {
+    border-radius: 4px 4px 0px 0px;
+    background-color: #337a33;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a:active {
+    border-radius: 4px 4px 0px 0px;
+    background-color: #337a33;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+nav a:hover {
+    border-radius: 4px 4px 0px 0px;
+    background-color: #52b452;
+    text-decoration: none;
+    color: #afaeae;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 main {
     background-color: #0e4913;
     color: #ffffff;
@@ -58,6 +94,16 @@ article {
     padding: 0px 15px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
+
+article img {
+    display: block;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
 
 aside {
     background-color: #0f4d0f;
@@ -84,17 +130,17 @@ h1{
     font-size: 24pt;
 }
 
+a {
+    color: #b3adadfd;
+    text-decoration: underline;
+}
+
+
 
 .bodytext{
     font-size: 16pt;
     color: rgb(135, 145, 135);
     font-family: 'Arial', sans-serif;
-}
-
-.nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px;
 }
 
 .nav-selected {
@@ -103,7 +149,15 @@ h1{
     padding: 5px;
 }
 
+.centerImage {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    text-align: right;
+}
+
+
 
 #mainShadow {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+
