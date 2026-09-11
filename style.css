@@ -91,7 +91,7 @@ article {
     color: #ffffff;
     width: 70%;
     border-radius: 20px;
-    padding: 0px 15px;
+    padding: 0px 15px 15px 15px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
