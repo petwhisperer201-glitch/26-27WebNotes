@@ -21,9 +21,54 @@
         <main>
 
             <article>
-                <h1>
-                    Hello World
-                </h1>
+                <h1>Forms</h1>
+                <form
+                action="https://formspree.io/f/xljdevdg"
+                method="POST"
+                >
+                <label>
+                    What is your name?<br>
+                    <input type="text" name="personsName" value="Type here"><br><br>
+                </label>
+
+                <label>
+                    What ice cream do you like?<br>
+                    <input type="checkbox" name="iceCream" value="vinnila"> Vinnilla<br>
+                    <input type="checkbox" name="iceCream" value="mint"> Mint<br>
+                    <input type="checkbox" name="iceCream" value="chocolate"> Chocolate<br><br>
+                </label>
+
+                <label>
+                    What is your favorite topping:<br>
+                    <input type="radio" name="topping" value="sprinkles">Sprinkles<br>
+                    <input type="radio" name="topping" value="nuts">Nuts<br>
+                    <input type="radio" name="topping" value="nerds">Nerds<br>
+
+                </label>
+
+                <label>
+                    How do you like your icecream served:<br>
+                    <select name="serving" size="2" multiple>
+                        <option value="cone">Cone</option>
+                        <option value="cup">Cup</option>
+                        <option value="bowl">Bowl</option>
+                        <option value="waffle">Waffle</option>
+                    </select>
+                </label>
+
+                <label>
+                    <br><br><input type="submit" value="Click here to send">
+
+                </label>
+
+                </form>
+
+
+                <form action="https://www.google.com" method="get">
+                    <input type="submit" value="Google">
+
+
+                </form>
             </article>
 
             
